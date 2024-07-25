@@ -55,6 +55,7 @@
 }
 
 .form{
+    margin-top: -50px;
     width: 90%;
     display: flex;
     align-items: center;
@@ -63,4 +64,29 @@
     justify-content: space-around;
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.input p{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+
+.input input{
+    padding: 10px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+}
+
+.input button{
+    padding: 10px 0px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    border: none;
 }
