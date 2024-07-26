@@ -99,3 +99,49 @@
     margin-top: -14%;
     padding: 0px 7px;
 }
+
+#brand-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.brand-section-container{
+    width: 90%;
+}
+
+.brand-section-heading{
+    display: flex;
+}
+
+.brand-section-button{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.brand-section-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.brand-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand-content{
+    width: 15%;
+    height: 100px;
+    background-color: #E5E4E2;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand{
+    text-align: center;
+}
