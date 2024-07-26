@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +43,10 @@
             <div class="form">
                 <div class="input">
                     <p>Pick-up location</p>
-                    <input type="text" placeholder="Search a location">
+                    <div class="input-container">
+                        <input type="text" placeholder="Search a location">
+                        <i class="fa-solid fa-location-dot"></i> 
+                    </div>
                 </div>
                 <div class="input">
                     <p>Pick-up date</p>
@@ -50,7 +54,10 @@
                 </div>
                 <div class="input">
                     <p>Drop-off location</p>
-                    <input type="text" placeholder="Search a location">
+                    <div class="input-container">
+                        <input type="text" placeholder="Search a location">
+                        <i class="fa-solid fa-location-dot"></i> 
+                    </div>
                 </div>
                 <div class="input">
                     <p>Drop-off date</p> 
@@ -58,11 +65,8 @@
                 </div>
                 <div class="input">
                     <button>
-                        Find a vehicle
-                        <svg width="11" height="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.75 7H12.25M12.25 7L7 1.75M12.25 7L7 12.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                            
+                        <p>Find a vehicle</p>  
+                        <i class="fa-solid fa-arrow-right"></i>
                     </button>
                 </div>
             </div>

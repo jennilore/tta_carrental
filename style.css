@@ -83,10 +83,19 @@
 }
 
 .input button{
-    padding: 10px 0px;
-    margin-top: 30px;
+    padding: 3px 0px;
+    margin-top: 10px;
     border-radius: 15px;
     background-color: black;
     color: #fff;
     border: none;
+}
+
+.input .input-container input{
+    padding-left: 25px;
+}
+ 
+.input .input-container i{
+    margin-top: -14%;
+    padding: 0px 7px;
 }
