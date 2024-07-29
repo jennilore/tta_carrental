@@ -100,7 +100,7 @@
     padding: 0px 7px;
 }
 
-#brand-section{
+#brand-section, #car-collection{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -111,13 +111,16 @@
     padding: 50px 60px;
 }
 
+
 .brand-section-container{
     width: 90%;
 }
 
-.body-type-section-container{
+.body-type-section-container, .collection-container{
     width: 99%;
 }
+
+
 
 .brand-section-heading{
     display: flex;
@@ -159,6 +162,117 @@
     align-items: center;
 }
 
-.brand, .body-type{
+.brand, .body-type, .collection-container{
     text-align: center;
+}
+
+#car-collection{
+    background-color: #E5E5E5;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.collection-header h1{
+    padding: 10px 15px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+.collection-header p{
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.collection-header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.collection-header ul li {
+    display: inline;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    border-radius: 40px;
+    
+}
+
+.car-in-collection{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+}
+
+.car-image, .details-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.car-card .car-image img{
+    width: 95%;
+    height: auto;
+}
+
+.car-card{
+    background-color: white;
+    color: black;
+    margin: 0px 25px;
+    border-radius: 20px;
+}
+
+.num{
+      margin-left: -210px;
+}
+
+.car-details{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.car-details h1{
+    padding:  7px 0px;
+}
+
+.car-details h1 sub{
+    font-weight: 100;
+    color: gray;
+}
+
+.details-container{
+    background-color: #E5E4E2;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.detail{
+    padding: 20px 10px;
+}
+
+.rent{
+    width: 89%;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 25px 20px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+.rent2{
+    background-color: black;
+    color: white;
+}
+
+.see-more{
+    justify-content: center;
+    padding: 10px 30px;
+    margin-top: 60px ;
+    background-color: black;
+    color: white;
+    border: none ;
+    border-radius: 20px;
 }
