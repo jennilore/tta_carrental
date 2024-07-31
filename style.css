@@ -100,7 +100,7 @@
     padding: 0px 7px;
 }
 
-#brand-section, #car-collection, #body-type-section{
+#brand-section, #car-collection, #body-type-section, #services{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -112,7 +112,7 @@
     padding: 50px 60px;
 }
 
-.brand-section-container, .how-container{
+.brand-section-container, .how-container, .services-container{
     width: 90%;
 }
 
@@ -173,14 +173,14 @@
     padding-bottom: 100px;
 }
 
-.collection-header h1, .how-header h1{
+.collection-header h1, .how-header h1, .services-header h1{
     text-align: center;
     padding: 10px 15px;
     margin-top: 40px;
     font-weight: 800;
     font-size: xx-large;
 }
-.collection-header p, .how-header p{
+.collection-header p, .how-header p, .services-header p{
     text-align: center;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -338,3 +338,41 @@
     width: 50%;
 }
 
+#services{
+    background-color: black;
+    color: #fff;
+    padding: 40px 0px;
+    margin-bottom: unset;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-content .service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service-icon .service-incon-content{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: 3px solid #E5E5E5;
+}
+
+.grid-content .service-words{
+    text-align: center;
+}
+
+.grid-content .service-words h4{
+    padding: 10px 0px;
+}
+
+.grid-content .service-words p{
+    padding: 10px;
+}
