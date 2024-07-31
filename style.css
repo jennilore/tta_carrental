@@ -100,19 +100,19 @@
     padding: 0px 7px;
 }
 
-#brand-section, #car-collection{
+#brand-section, #car-collection, #body-type-section{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-#body-type-section{
+
+#body-type-section, #how-it-works{
     justify-content: center;
     margin: 40px 0px;
     padding: 50px 60px;
 }
 
-
-.brand-section-container{
+.brand-section-container, .how-container{
     width: 90%;
 }
 
@@ -125,6 +125,7 @@
 .brand-section-heading{
     display: flex;
 }
+
 .body-type-section-heading{
     display: inline;
 }
@@ -172,13 +173,15 @@
     padding-bottom: 100px;
 }
 
-.collection-header h1{
+.collection-header h1, .how-header h1{
+    text-align: center;
     padding: 10px 15px;
     margin-top: 40px;
     font-weight: 800;
     font-size: xx-large;
 }
-.collection-header p{
+.collection-header p, .how-header p{
+    text-align: center;
     padding: 15px 0px;
     margin-bottom: 20px;
 }
@@ -192,8 +195,8 @@
 .collection-header ul li {
     display: inline;
     background-color: white;
-    padding: 10px 15px;
-    margin: 10px 10px;
+    padding: 15px 15px;
+    margin: 40px 10px;
     border-radius: 40px;
     
 }
@@ -276,3 +279,62 @@
     border: none ;
     border-radius: 20px;
 }
+
+.howcontent{
+    display: flex;
+    position: relative;
+}
+
+.howcontent .text-2{
+    width: 40%;
+}
+
+.steps{
+    display: flex;
+    background-color: white;
+    border: .8px solid #E5E5E5;
+    padding: 15px 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    background-color: #E5E5E5;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.step-content h3{
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.step-content p{
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.how-img{
+    width: 60%;
+    background-color: #E5E4E2;
+    right: 0;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px 90px;
+    margin-left: 510px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-2-steps{
+    position: absolute;
+    width: 50%;
+}
+
