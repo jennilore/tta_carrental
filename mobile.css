@@ -1,0 +1,118 @@
+@media (max-width: 600px) { 
+    footer{
+        display: none;
+    }
+    .home-container p{
+        font-size: 20px;
+    }
+
+    .header-container3{
+        display: none;
+    }
+
+    .form-container{
+        align-items: center;
+    }
+
+    .form{
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .brand-content{
+        width: 35%;
+    }
+
+    .body-type-section-container{
+        margin-left: -30px;
+    }
+    
+    .brand-content svg, .body-type-content svg{
+        width: 60%;
+    }
+
+    .body-type-content{
+        width: 40%;
+        padding: 5px ;
+        margin-left: -30px;
+    }
+
+    .brand, .body-type{
+        text-align: center;
+    }
+
+    .collection-header{
+        width: 65%;
+    }
+
+    .collection-header p{
+       font-size: 19px;
+    }
+
+    .collection-header ul li{
+        display: block;
+        width: 70%;
+        margin: 8px 0px;
+    }
+
+    .car-in-collection, .services-grid{
+        grid-template-columns: auto;
+    }
+    .num{
+        margin-right: -108px;
+    }
+
+    .num-2{
+        margin-right: -40px;
+    }
+
+    .howcontent{
+        flex-direction: column;
+    }
+
+    .how-img{
+        width: 100%;
+        height: auto;
+        padding: 21% 0px;
+    }
+    .how-img img{
+        width: 70%;
+        height: auto;
+    }
+
+    .text-2-steps{
+        position: relative;
+        width: 100%;
+    }
+    
+    .service-words p, .service-header{
+        font-size: 15px;
+    }
+
+    .comment p{
+        width: 60%;
+        margin-right: 300px;
+    }
+
+    .comment-section-buttons{
+        margin-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+
+    .comment-header{
+        width: 20px;
+    }
+
+    .buttons-container{
+        width: 80%;
+        margin-right: 70px;
+    }
+
+    .download-section-container{
+        padding: unset;
+    }
+
+
+}
